@@ -1,8 +1,9 @@
 from lxml import etree
 from dateutil.parser import parse as date_parser
 
+
 class YoutubeParser(object):
-    __namespaces = {'a': 'http://www.w3.org/2005/Atom',
+    _namespaces = {'a': 'http://www.w3.org/2005/Atom',
                     'app': 'http://www.w3.org/2007/app',
                     'batch': 'http://schemas.google.com/gdata/batch',
                     'gd': 'http://schemas.google.com/g/2005',
@@ -17,23 +18,43 @@ class YoutubeParser(object):
         {'name': 'published', 'xpath': 'a:published/text()', 'convert': date_parser},
         {'name': 'updated', 'xpath': 'a:updated/text()', 'convert': date_parser},
         {'name': 'title', 'xpath': 'a:title/text()'},
-        {'name': 'content', 'xpath': 'a:content/text()'}
+        {'name': 'content', 'xpath': 'a:content/text()'},
+        {'name': 'author_name', 'xpath': 'a:author/a:name/text()'},
+        {'name': 'user_name', 'xpath': 'a:author/a:uri/text()', 'convert': lambda x: x[x.rfind('/')+1:]},
+        {'name': 'video_url', 'xpath': 'media:group/media:content[@isDefault]/@url'},
+        {'name': 'comments', 'children': [
+            {'name': 'count', 'xpath': 'gd:comments/gd:feedLink/@countHint'},
+            {'name': 'href', 'xpath': 'gd:comments/gd:feedLink/@href'}
+        ]},
+        {'name': 'thumbnails', 'multi': True, 'xpath': 'media:group/media:thumbnail', 'convert': lambda x: [e.attrib for e in x]}
     ]
 
     def get_entries(self, xml):
         root = etree.fromstring(xml)
 
-        return [self._parse_entry(entry) for entry in root.xpath('//a:entry', namespaces=self.__namespaces)]
+        return [self._parse_entry(entry) for entry in root.xpath('//a:entry', namespaces=self._namespaces)]
 
     def _parse_entry(self, entry):
-        obj = {}
-        for prop_map in self.__entity_xpath:
-            value = entry.xpath(prop_map['xpath'], namespaces=self.__namespaces)[0]
+        return self.__parse_mapping(entry, self.__entity_xpath)
 
-            if prop_map.get('convert'):
-                obj[prop_map['name']] = prop_map.get('convert')(value)
+    def __parse_mapping(self, entry, collection):
+        obj = {}
+
+        for prop_map in collection:
+            if 'children' in prop_map:
+                obj[prop_map['name']] = self.__parse_mapping(entry, prop_map['children'])
             else:
-                obj[prop_map['name']] = value
+                result = entry.xpath(prop_map['xpath'], namespaces=self._namespaces)
+
+                if prop_map.get('multi', False):
+                    value = result
+                else:
+                    value = result[0]
+
+                if prop_map.get('convert'):
+                    obj[prop_map['name']] = prop_map.get('convert')(value)
+                else:
+                    obj[prop_map['name']] = value
 
         return obj
 

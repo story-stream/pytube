@@ -3,62 +3,41 @@
       xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005'
       xmlns:yt='http://gdata.youtube.com/schemas/2007'>
     <entry>
-        <id>http://gdata.youtube.com/feeds/api/videos/0zDDEvROU48</id>
-        <published>2014-05-18T09:57:14.000Z</published>
-        <updated>2014-05-18T10:38:10.000Z</updated>
-        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
-        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
-                  label='Autos &amp; Vehicles'/>
-        <title type='text'>The new Porsche 911 Turbo - Chassis</title>
-        <content type='text'>The new 911 Turbo offers exceptionally high levels of stability and a superior cornering
-            agility. Take a look at this video to understand how the car is able to achieve this level of
-            performance....
-        </content>
-        <link rel='alternate' type='text/html'
-              href='http://www.youtube.com/watch?v=0zDDEvROU48&amp;feature=youtube_gdata'/>
-        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
-              href='http://gdata.youtube.com/feeds/api/videos/0zDDEvROU48/related'/>
-        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
-              href='http://m.youtube.com/details?v=0zDDEvROU48'/>
-        <link rel='self' type='application/atom+xml'
-              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/0zDDEvROU48'/>
+        <id>http://gdata.youtube.com/feeds/api/videos/RFs1M47ZWA8</id>
+        <published>2014-05-16T20:24:11.000Z</published>
+        <updated>2014-05-19T17:39:52.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind" term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Music" label="Music"/>
+        <title type="text">10 year old guitarist Alex Ayres plays Hail To The King by Avenged Sevenfold</title>
+        <content type="text">10 year old guitarist Alex Ayres plays Hail To The King by Avenged Sevenfold. Alex plays in the band Basecamp https://www.facebook.com/WeareBaseCamp.</content>
+        <link rel="alternate" type="text/html" href="http://www.youtube.com/watch?v=RFs1M47ZWA8&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml" href="http://gdata.youtube.com/feeds/api/videos/RFs1M47ZWA8/related"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html" href="http://m.youtube.com/details?v=RFs1M47ZWA8"/>
+        <link rel="self" type="application/atom+xml" href="http://gdata.youtube.com/feeds/api/users/leowestby/uploads/RFs1M47ZWA8"/>
         <author>
-            <name>Porsche</name>
-            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+            <name>Newbury Rock School</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/leowestby</uri>
         </author>
         <gd:comments>
-            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
-                         href='http://gdata.youtube.com/feeds/api/videos/0zDDEvROU48/comments' countHint='2'/>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments" href="http://gdata.youtube.com/feeds/api/videos/RFs1M47ZWA8/comments" countHint="7"/>
         </gd:comments>
         <yt:hd/>
         <media:group>
-            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
-                Autos
-            </media:category>
-            <media:content url='http://www.youtube.com/v/0zDDEvROU48?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
-                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
-                           duration='101' yt:format='5'/>
-            <media:content
-                    url='rtsp://r3---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmPU070EsMw0xMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
-                    type='video/3gpp' medium='video' expression='full' duration='101' yt:format='1'/>
-            <media:content
-                    url='rtsp://r3---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmPU070EsMw0xMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
-                    type='video/3gpp' medium='video' expression='full' duration='101' yt:format='6'/>
-            <media:description type='plain'>The new 911 Turbo offers exceptionally high levels of stability and a
-                superior cornering agility. Take a look at this video to understand how the car is able to achieve this
-                level of performance....
-            </media:description>
+            <media:category label="Music" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Music</media:category>
+            <media:content url="http://www.youtube.com/v/RFs1M47ZWA8?version=3&amp;f=user_uploads&amp;app=youtube_gdata" type="application/x-shockwave-flash" medium="video" isDefault="true" expression="full" duration="311" yt:format="5"/>
+            <media:content url="rtsp://r1---sn-cg07luel.c.youtube.com/CigLENy73wIaHwkPWNmOMzVbRBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp" type="video/3gpp" medium="video" expression="full" duration="311" yt:format="1"/>
+            <media:content url="rtsp://r1---sn-cg07luel.c.youtube.com/CigLENy73wIaHwkPWNmOMzVbRBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp" type="video/3gpp" medium="video" expression="full" duration="311" yt:format="6"/>
+            <media:description type="plain">10 year old guitarist Alex Ayres plays Hail To The King by Avenged Sevenfold. Alex plays in the band Basecamp https://www.facebook.com/WeareBaseCamp.</media:description>
             <media:keywords/>
-            <media:player url='http://www.youtube.com/watch?v=0zDDEvROU48&amp;feature=youtube_gdata_player'/>
-            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/0.jpg' height='360' width='480'
-                             time='00:00:50.500'/>
-            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/1.jpg' height='90' width='120' time='00:00:25.250'/>
-            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/2.jpg' height='90' width='120' time='00:00:50.500'/>
-            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/3.jpg' height='90' width='120' time='00:01:15.750'/>
-            <media:title type='plain'>The new Porsche 911 Turbo - Chassis</media:title>
-            <yt:duration seconds='101'/>
+            <media:player url="http://www.youtube.com/watch?v=RFs1M47ZWA8&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/RFs1M47ZWA8/0.jpg" height="360" width="480" time="00:02:35.500"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/RFs1M47ZWA8/1.jpg" height="90" width="120" time="00:01:17.750"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/RFs1M47ZWA8/2.jpg" height="90" width="120" time="00:02:35.500"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/RFs1M47ZWA8/3.jpg" height="90" width="120" time="00:03:53.250"/>
+            <media:title type="plain">10 year old guitarist Alex Ayres plays Hail To The King by Avenged Sevenfold</media:title>
+            <yt:duration seconds="311"/>
         </media:group>
-        <gd:rating average='5.0' max='5' min='1' numRaters='48' rel='http://schemas.google.com/g/2005#overall'/>
-        <yt:statistics favoriteCount='0' viewCount='15765'/>
+        <gd:rating average="5.0" max="5" min="1" numRaters="49" rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="0" viewCount="651"/>
     </entry>
 </feed>

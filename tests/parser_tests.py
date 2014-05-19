@@ -21,6 +21,13 @@ class ParserTestCase(unittest.TestCase):
         xml_entry = etree.fromstring(open(os.path.join(os.path.dirname(__file__), 'entry.xml'), 'r').read())[0]
         parsed_entry = self.parser._parse_entry(xml_entry)
 
-        self.assertEqual(parsed_entry['id'], 'http://gdata.youtube.com/feeds/api/videos/0zDDEvROU48')
+        self.assertEqual(parsed_entry['id'], 'http://gdata.youtube.com/feeds/api/videos/RFs1M47ZWA8')
 
         self.assertEqual(parsed_entry['updated'].month, 5)
+        self.assertEqual(parsed_entry['author_name'], 'Newbury Rock School')
+        self.assertEqual(parsed_entry['user_name'], 'leowestby')
+        self.assertEqual(parsed_entry['comments']['count'], '7')
+
+        self.assertEqual(len(parsed_entry['thumbnails']), 4)
+
+        self.assertEqual(parsed_entry['thumbnails'][0]['url'], 'http://i.ytimg.com/vi/RFs1M47ZWA8/0.jpg')
