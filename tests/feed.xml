@@ -1,0 +1,1447 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:media='http://search.yahoo.com/mrss/'
+      xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005'
+      xmlns:yt='http://gdata.youtube.com/schemas/2007'>
+    <id>http://gdata.youtube.com/feeds/api/users/porsche/uploads</id>
+    <updated>2014-05-19T19:33:15.113Z</updated>
+    <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+    <title type='text'>Uploads by Porsche</title>
+    <logo>http://www.gstatic.com/youtube/img/logo.png</logo>
+    <link rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/users/porsche'/>
+    <link rel='alternate' type='text/html' href='http://www.youtube.com/channel/UC_BaxRhNREI_V0DVXjXDALA/videos'/>
+    <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/users/porsche/uploads'/>
+    <link rel='http://schemas.google.com/g/2005#batch' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/batch'/>
+    <link rel='self' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/users/porsche/uploads?start-index=1&amp;max-results=25&amp;orderby=published'/>
+    <link rel='next' type='application/atom+xml'
+          href='http://gdata.youtube.com/feeds/api/users/porsche/uploads?start-index=26&amp;max-results=25&amp;orderby=published'/>
+    <author>
+        <name>Porsche</name>
+        <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+    </author>
+    <generator version='2.1' uri='http://gdata.youtube.com'>YouTube data API</generator>
+    <openSearch:totalResults>989</openSearch:totalResults>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/0zDDEvROU48</id>
+        <published>2014-05-18T09:57:14.000Z</published>
+        <updated>2014-05-18T10:38:10.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>The new Porsche 911 Turbo - Chassis</title>
+        <content type='text'>The new 911 Turbo offers exceptionally high levels of stability and a superior cornering
+            agility. Take a look at this video to understand how the car is able to achieve this level of
+            performance....
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=0zDDEvROU48&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/0zDDEvROU48/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=0zDDEvROU48'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/0zDDEvROU48'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/0zDDEvROU48/comments' countHint='2'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/0zDDEvROU48?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='101' yt:format='5'/>
+            <media:content
+                    url='rtsp://r3---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmPU070EsMw0xMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='101' yt:format='1'/>
+            <media:content
+                    url='rtsp://r3---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmPU070EsMw0xMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='101' yt:format='6'/>
+            <media:description type='plain'>The new 911 Turbo offers exceptionally high levels of stability and a
+                superior cornering agility. Take a look at this video to understand how the car is able to achieve this
+                level of performance....
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=0zDDEvROU48&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/0.jpg' height='360' width='480'
+                             time='00:00:50.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/1.jpg' height='90' width='120' time='00:00:25.250'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/2.jpg' height='90' width='120' time='00:00:50.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0zDDEvROU48/3.jpg' height='90' width='120' time='00:01:15.750'/>
+            <media:title type='plain'>The new Porsche 911 Turbo - Chassis</media:title>
+            <yt:duration seconds='101'/>
+        </media:group>
+        <gd:rating average='5.0' max='5' min='1' numRaters='48' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='15765'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/10oSAnKaZWw</id>
+        <published>2014-05-14T09:33:32.000Z</published>
+        <updated>2014-05-17T08:29:27.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Real Racing 3 - Road to Le Mans</title>
+        <content type='text'>Precision, speed and concentration are the key factors to fight for every second on the
+            race track. Prepare yourself for Le Mans. In Real Racing 3. For more information, visit:
+            www.porsche.com/rr3-...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=10oSAnKaZWw&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/10oSAnKaZWw/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=10oSAnKaZWw'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/10oSAnKaZWw'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/10oSAnKaZWw/comments' countHint='38'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/10oSAnKaZWw?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='55' yt:format='5'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07luez.c.youtube.com/CigLENy73wIaHwlsZZpyAhJK1xMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='55' yt:format='1'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07luez.c.youtube.com/CigLENy73wIaHwlsZZpyAhJK1xMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='55' yt:format='6'/>
+            <media:description type='plain'>Precision, speed and concentration are the key factors to fight for every
+                second on the race track. Prepare yourself for Le Mans. In Real Racing 3. For more information, visit:
+                www.porsche.com/rr3-...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=10oSAnKaZWw&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/10oSAnKaZWw/0.jpg' height='360' width='480'
+                             time='00:00:27.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/10oSAnKaZWw/1.jpg' height='90' width='120' time='00:00:13.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/10oSAnKaZWw/2.jpg' height='90' width='120' time='00:00:27.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/10oSAnKaZWw/3.jpg' height='90' width='120' time='00:00:41.250'/>
+            <media:title type='plain'>Real Racing 3 - Road to Le Mans</media:title>
+            <yt:duration seconds='55'/>
+        </media:group>
+        <gd:rating average='4.8594847' max='5' min='1' numRaters='427' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='31663'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/2P6gTpG0DjA</id>
+        <published>2014-05-13T10:14:53.000Z</published>
+        <updated>2014-05-17T07:40:10.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche 911 Secrets: V8 concept</title>
+        <content type='text'>"Porsche 911" and "V8 engine" - two terms, that most of you wouldn't expect in one car.
+            This particular concept car from the Porsche history reunites these two conflicting ideas.
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=2P6gTpG0DjA&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/2P6gTpG0DjA/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=2P6gTpG0DjA'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/2P6gTpG0DjA'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/2P6gTpG0DjA/comments' countHint='43'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/2P6gTpG0DjA?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='91' yt:format='5'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07luez.c.youtube.com/CigLENy73wIaHwkwDrSRTqD-2BMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='91' yt:format='1'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07luez.c.youtube.com/CigLENy73wIaHwkwDrSRTqD-2BMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='91' yt:format='6'/>
+            <media:description type='plain'>"Porsche 911" and "V8 engine" - two terms, that most of you wouldn't expect
+                in one car. This particular concept car from the Porsche history reunites these two conflicting ideas.
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=2P6gTpG0DjA&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/2P6gTpG0DjA/0.jpg' height='360' width='480'
+                             time='00:00:45.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/2P6gTpG0DjA/1.jpg' height='90' width='120' time='00:00:22.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/2P6gTpG0DjA/2.jpg' height='90' width='120' time='00:00:45.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/2P6gTpG0DjA/3.jpg' height='90' width='120' time='00:01:08.250'/>
+            <media:title type='plain'>Porsche 911 Secrets: V8 concept</media:title>
+            <yt:duration seconds='91'/>
+        </media:group>
+        <gd:rating average='4.956284' max='5' min='1' numRaters='549' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='118008'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/cd6rxfW5ICM</id>
+        <published>2014-05-10T09:33:35.000Z</published>
+        <updated>2014-05-19T06:08:51.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>The new Porsche Macan - Everyday Practicality</title>
+        <content type='text'>The new Porsche Macan boasts plenty of space for hobbies, leisure and sport. But no room
+            for compromise. Learn more in this video. *Combined fuel consumption...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=cd6rxfW5ICM&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/cd6rxfW5ICM/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=cd6rxfW5ICM'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/cd6rxfW5ICM'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/cd6rxfW5ICM/comments' countHint='54'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/cd6rxfW5ICM?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='59' yt:format='5'/>
+            <media:content
+                    url='rtsp://r2---sn-cg07luel.c.youtube.com/CigLENy73wIaHwkjILn1xavecRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='59' yt:format='1'/>
+            <media:content
+                    url='rtsp://r2---sn-cg07luel.c.youtube.com/CigLENy73wIaHwkjILn1xavecRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='59' yt:format='6'/>
+            <media:description type='plain'>The new Porsche Macan boasts plenty of space for hobbies, leisure and sport.
+                But no room for compromise. Learn more in this video. *Combined fuel consumption...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=cd6rxfW5ICM&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/cd6rxfW5ICM/0.jpg' height='360' width='480'
+                             time='00:00:29.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/cd6rxfW5ICM/1.jpg' height='90' width='120' time='00:00:14.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/cd6rxfW5ICM/2.jpg' height='90' width='120' time='00:00:29.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/cd6rxfW5ICM/3.jpg' height='90' width='120' time='00:00:44.250'/>
+            <media:title type='plain'>The new Porsche Macan - Everyday Practicality</media:title>
+            <yt:duration seconds='59'/>
+        </media:group>
+        <gd:rating average='4.961814' max='5' min='1' numRaters='419' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='46653'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/0n7QyIhIB1s</id>
+        <published>2014-05-08T09:50:30.000Z</published>
+        <updated>2014-05-18T16:03:37.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>The new Boxster GTS and Cayman GTS. Behind the wheel.</title>
+        <content type='text'>Gordon Robertson, the Chief Driving Consultant at the Porsche Experience Centre in
+            Silverstone, talks about his fascination with the latest GTS models. *Comb...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=0n7QyIhIB1s&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/0n7QyIhIB1s/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=0n7QyIhIB1s'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/0n7QyIhIB1s'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/0n7QyIhIB1s/comments' countHint='34'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/0n7QyIhIB1s?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='76' yt:format='5'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lued.c.youtube.com/CigLENy73wIaHwlbB0iIyNB-0hMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='76' yt:format='1'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lued.c.youtube.com/CigLENy73wIaHwlbB0iIyNB-0hMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='76' yt:format='6'/>
+            <media:description type='plain'>Gordon Robertson, the Chief Driving Consultant at the Porsche Experience
+                Centre in Silverstone, talks about his fascination with the latest GTS models. *Comb...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=0n7QyIhIB1s&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0n7QyIhIB1s/0.jpg' height='360' width='480' time='00:00:38'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0n7QyIhIB1s/1.jpg' height='90' width='120' time='00:00:19'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0n7QyIhIB1s/2.jpg' height='90' width='120' time='00:00:38'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/0n7QyIhIB1s/3.jpg' height='90' width='120' time='00:00:57'/>
+            <media:title type='plain'>The new Boxster GTS and Cayman GTS. Behind the wheel.</media:title>
+            <yt:duration seconds='76'/>
+        </media:group>
+        <gd:rating average='4.891473' max='5' min='1' numRaters='258' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='19228'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/oQxmKtj_bak</id>
+        <published>2014-05-08T07:58:40.000Z</published>
+        <updated>2014-05-17T16:14:43.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche GT3 Cup Challenge Benelux - Round 1: Spa-Francorchamps</title>
+        <content type='text'>A new year, a new season and what a way to start it! Round 1 of the 2014 Porsche GT3 Cup
+            Challenge Benelux took place at the legendary Spa-Francorchamps circ...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=oQxmKtj_bak&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/oQxmKtj_bak/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=oQxmKtj_bak'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/oQxmKtj_bak'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/oQxmKtj_bak/comments' countHint='2'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/oQxmKtj_bak?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='181' yt:format='5'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07luee.c.youtube.com/CigLENy73wIaHwmpbf_YKmYMoRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='181' yt:format='1'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07luee.c.youtube.com/CigLENy73wIaHwmpbf_YKmYMoRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='181' yt:format='6'/>
+            <media:description type='plain'>A new year, a new season and what a way to start it! Round 1 of the 2014
+                Porsche GT3 Cup Challenge Benelux took place at the legendary Spa-Francorchamps circ...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=oQxmKtj_bak&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/oQxmKtj_bak/0.jpg' height='360' width='480'
+                             time='00:01:30.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/oQxmKtj_bak/1.jpg' height='90' width='120' time='00:00:45.250'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/oQxmKtj_bak/2.jpg' height='90' width='120' time='00:01:30.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/oQxmKtj_bak/3.jpg' height='90' width='120' time='00:02:15.750'/>
+            <media:title type='plain'>Porsche GT3 Cup Challenge Benelux - Round 1: Spa-Francorchamps</media:title>
+            <yt:duration seconds='181'/>
+        </media:group>
+        <gd:rating average='4.661972' max='5' min='1' numRaters='71' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='4791'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/L4Cz2pFKFq0</id>
+        <published>2014-05-02T08:03:00.000Z</published>
+        <updated>2014-05-17T17:20:32.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Getting race fit with Porsche Human Performance</title>
+        <content type='text'>At the sixth annual Get Race Fit event, drivers of all levels had the chance to train
+            alongside Porsche Factory Driver Mark Webber, and to experience the sci...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=L4Cz2pFKFq0&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/L4Cz2pFKFq0/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=L4Cz2pFKFq0'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/L4Cz2pFKFq0'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/L4Cz2pFKFq0/comments' countHint='7'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/L4Cz2pFKFq0?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='140' yt:format='5'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lued.c.youtube.com/CigLENy73wIaHwmtFkqR2rOALxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='140' yt:format='1'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lued.c.youtube.com/CigLENy73wIaHwmtFkqR2rOALxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='140' yt:format='6'/>
+            <media:description type='plain'>At the sixth annual Get Race Fit event, drivers of all levels had the chance
+                to train alongside Porsche Factory Driver Mark Webber, and to experience the sci...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=L4Cz2pFKFq0&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/L4Cz2pFKFq0/0.jpg' height='360' width='480' time='00:01:10'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/L4Cz2pFKFq0/1.jpg' height='90' width='120' time='00:00:35'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/L4Cz2pFKFq0/2.jpg' height='90' width='120' time='00:01:10'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/L4Cz2pFKFq0/3.jpg' height='90' width='120' time='00:01:45'/>
+            <media:title type='plain'>Getting race fit with Porsche Human Performance</media:title>
+            <yt:duration seconds='140'/>
+        </media:group>
+        <gd:rating average='4.7777777' max='5' min='1' numRaters='180' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='9825'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/wqJ03bk3mE4</id>
+        <published>2014-05-01T10:01:37.000Z</published>
+        <updated>2014-05-18T15:58:17.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Driver's Selection: inside the design studio</title>
+        <content type='text'>In the beautiful Austrian town of Zell am See, the Porsche Design Studio applies our design
+            and engineering discipline to the finest motoring and lifestyle a...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=wqJ03bk3mE4&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/wqJ03bk3mE4/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=wqJ03bk3mE4'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/wqJ03bk3mE4'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/wqJ03bk3mE4/comments' countHint='18'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/wqJ03bk3mE4?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='173' yt:format='5'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lue6.c.youtube.com/CigLENy73wIaHwlOmDe53XSiwhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='173' yt:format='1'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lue6.c.youtube.com/CigLENy73wIaHwlOmDe53XSiwhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='173' yt:format='6'/>
+            <media:description type='plain'>In the beautiful Austrian town of Zell am See, the Porsche Design Studio
+                applies our design and engineering discipline to the finest motoring and lifestyle a...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=wqJ03bk3mE4&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/wqJ03bk3mE4/0.jpg' height='360' width='480'
+                             time='00:01:26.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/wqJ03bk3mE4/1.jpg' height='90' width='120' time='00:00:43.250'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/wqJ03bk3mE4/2.jpg' height='90' width='120' time='00:01:26.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/wqJ03bk3mE4/3.jpg' height='90' width='120' time='00:02:09.750'/>
+            <media:title type='plain'>Porsche Driver's Selection: inside the design studio</media:title>
+            <yt:duration seconds='173'/>
+        </media:group>
+        <gd:rating average='4.935743' max='5' min='1' numRaters='249' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='12497'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/CGl7Hpph-48</id>
+        <published>2014-04-30T10:00:51.000Z</published>
+        <updated>2014-05-18T15:18:26.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Leipzig. More emotions per hour.</title>
+        <content type='text'>Porsche Leipzig is more than a production facility. It's the home of the Cayenne, Panamera
+            and the Macan. But there's more to Porsche Leipzig than engineerin...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=CGl7Hpph-48&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/CGl7Hpph-48/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=CGl7Hpph-48'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/CGl7Hpph-48'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/CGl7Hpph-48/comments' countHint='39'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/CGl7Hpph-48?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='392' yt:format='5'/>
+            <media:content
+                    url='rtsp://r4---sn-cg07lued.c.youtube.com/CigLENy73wIaHwmP-2GaHntpCBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='392' yt:format='1'/>
+            <media:content
+                    url='rtsp://r4---sn-cg07lued.c.youtube.com/CigLENy73wIaHwmP-2GaHntpCBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='392' yt:format='6'/>
+            <media:description type='plain'>Porsche Leipzig is more than a production facility. It's the home of the
+                Cayenne, Panamera and the Macan. But there's more to Porsche Leipzig than engineerin...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=CGl7Hpph-48&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/CGl7Hpph-48/0.jpg' height='360' width='480' time='00:03:16'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/CGl7Hpph-48/1.jpg' height='90' width='120' time='00:01:38'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/CGl7Hpph-48/2.jpg' height='90' width='120' time='00:03:16'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/CGl7Hpph-48/3.jpg' height='90' width='120' time='00:04:54'/>
+            <media:title type='plain'>Porsche Leipzig. More emotions per hour.</media:title>
+            <yt:duration seconds='392'/>
+        </media:group>
+        <gd:rating average='4.9580054' max='5' min='1' numRaters='381' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='15601'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/nM4Y3Gd9Bfk</id>
+        <published>2014-04-29T11:32:54.000Z</published>
+        <updated>2014-05-18T00:05:48.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Night 2014 in Moscow</title>
+        <content type='text'>At this year's Porsche Night, the new Porsche Macan was unveiled in Russia for the first
+            time. Watch some of the highlights from the event in this clip. ----...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=nM4Y3Gd9Bfk&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/nM4Y3Gd9Bfk/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=nM4Y3Gd9Bfk'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/nM4Y3Gd9Bfk'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/nM4Y3Gd9Bfk/comments' countHint='14'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/nM4Y3Gd9Bfk?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='179' yt:format='5'/>
+            <media:content
+                    url='rtsp://r2---sn-cg07lue6.c.youtube.com/CigLENy73wIaHwn5BX1n3BjOnBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='179' yt:format='1'/>
+            <media:content
+                    url='rtsp://r2---sn-cg07lue6.c.youtube.com/CigLENy73wIaHwn5BX1n3BjOnBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='179' yt:format='6'/>
+            <media:description type='plain'>At this year's Porsche Night, the new Porsche Macan was unveiled in Russia
+                for the first time. Watch some of the highlights from the event in this clip. ----...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=nM4Y3Gd9Bfk&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/nM4Y3Gd9Bfk/0.jpg' height='360' width='480'
+                             time='00:01:29.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/nM4Y3Gd9Bfk/1.jpg' height='90' width='120' time='00:00:44.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/nM4Y3Gd9Bfk/2.jpg' height='90' width='120' time='00:01:29.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/nM4Y3Gd9Bfk/3.jpg' height='90' width='120' time='00:02:14.250'/>
+            <media:title type='plain'>Porsche Night 2014 in Moscow</media:title>
+            <yt:duration seconds='179'/>
+        </media:group>
+        <gd:rating average='4.8343196' max='5' min='1' numRaters='169' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='6889'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/A6qXO476OFY</id>
+        <published>2014-04-28T11:50:48.000Z</published>
+        <updated>2014-05-18T22:57:44.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Maria Sharapova and Mark Webber: Test drive in the 918 Spyder</title>
+        <content type='text'>Watch how Porsche Brand Ambassador Maria Sharapova and Porsche works driver Mark Webber
+            took the 918 Spyder for a test drive in the Stuttgart surroundings. *...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=A6qXO476OFY&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/A6qXO476OFY/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=A6qXO476OFY'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/A6qXO476OFY'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/A6qXO476OFY/comments' countHint='28'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/A6qXO476OFY?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='152' yt:format='5'/>
+            <media:content
+                    url='rtsp://r8---sn-cg07luez.c.youtube.com/CigLENy73wIaHwlWOPqOO5eqAxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='152' yt:format='1'/>
+            <media:content
+                    url='rtsp://r8---sn-cg07luez.c.youtube.com/CigLENy73wIaHwlWOPqOO5eqAxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='152' yt:format='6'/>
+            <media:description type='plain'>Watch how Porsche Brand Ambassador Maria Sharapova and Porsche works driver
+                Mark Webber took the 918 Spyder for a test drive in the Stuttgart surroundings. *...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=A6qXO476OFY&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/A6qXO476OFY/0.jpg' height='360' width='480' time='00:01:16'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/A6qXO476OFY/1.jpg' height='90' width='120' time='00:00:38'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/A6qXO476OFY/2.jpg' height='90' width='120' time='00:01:16'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/A6qXO476OFY/3.jpg' height='90' width='120' time='00:01:54'/>
+            <media:title type='plain'>Maria Sharapova and Mark Webber: Test drive in the 918 Spyder</media:title>
+            <yt:duration seconds='152'/>
+        </media:group>
+        <gd:rating average='4.902439' max='5' min='1' numRaters='369' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='44717'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/fAR6O6FSO4s</id>
+        <published>2014-04-26T09:30:40.000Z</published>
+        <updated>2014-05-17T23:34:58.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Mission 2014. It's good to be back.</title>
+        <content type='text'>The conclusion after a remarkable start into our #Mission2014? It's good to be back!
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=fAR6O6FSO4s&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/fAR6O6FSO4s/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=fAR6O6FSO4s'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/fAR6O6FSO4s'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/fAR6O6FSO4s/comments' countHint='77'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/fAR6O6FSO4s?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='119' yt:format='5'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmLO1KhO3oEfBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='119' yt:format='1'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmLO1KhO3oEfBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='119' yt:format='6'/>
+            <media:description type='plain'>The conclusion after a remarkable start into our #Mission2014? It's good to
+                be back!
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=fAR6O6FSO4s&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/fAR6O6FSO4s/0.jpg' height='360' width='480'
+                             time='00:00:59.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/fAR6O6FSO4s/1.jpg' height='90' width='120' time='00:00:29.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/fAR6O6FSO4s/2.jpg' height='90' width='120' time='00:00:59.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/fAR6O6FSO4s/3.jpg' height='90' width='120' time='00:01:29.250'/>
+            <media:title type='plain'>Mission 2014. It's good to be back.</media:title>
+            <yt:duration seconds='119'/>
+        </media:group>
+        <gd:rating average='5.0' max='5' min='1' numRaters='679' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='31775'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/ek7D7j_eROU</id>
+        <published>2014-04-25T09:00:07.000Z</published>
+        <updated>2014-05-18T15:49:43.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Season 5 Bloopers - The funny side of Porsche GT3 Cup Challenge Middle East</title>
+        <content type='text'>Serious driving can be serious fun for the leading racers in the Middle East with Porsche
+            GT3CCME. Take a hilarious look behind the scenes at some of the fun...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=ek7D7j_eROU&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/ek7D7j_eROU/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=ek7D7j_eROU'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/ek7D7j_eROU'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/ek7D7j_eROU/comments' countHint='14'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/ek7D7j_eROU?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='228' yt:format='5'/>
+            <media:content
+                    url='rtsp://r6---sn-cg07luel.c.youtube.com/CigLENy73wIaHwnlRN4_7sNOehMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='228' yt:format='1'/>
+            <media:content
+                    url='rtsp://r6---sn-cg07luel.c.youtube.com/CigLENy73wIaHwnlRN4_7sNOehMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='228' yt:format='6'/>
+            <media:description type='plain'>Serious driving can be serious fun for the leading racers in the Middle East
+                with Porsche GT3CCME. Take a hilarious look behind the scenes at some of the fun...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=ek7D7j_eROU&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/ek7D7j_eROU/0.jpg' height='360' width='480' time='00:01:54'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/ek7D7j_eROU/1.jpg' height='90' width='120' time='00:00:57'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/ek7D7j_eROU/2.jpg' height='90' width='120' time='00:01:54'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/ek7D7j_eROU/3.jpg' height='90' width='120' time='00:02:51'/>
+            <media:title type='plain'>Season 5 Bloopers - The funny side of Porsche GT3 Cup Challenge Middle East
+            </media:title>
+            <yt:duration seconds='228'/>
+        </media:group>
+        <gd:rating average='4.8959107' max='5' min='1' numRaters='269' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='13307'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/QbM0NhBu-Ro</id>
+        <published>2014-04-24T09:24:18.000Z</published>
+        <updated>2014-05-18T17:42:36.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Motorsport - Our fans. Our engine.</title>
+        <content type='text'>It has always been the enthusiasm and support of our fans that has driven us to top
+            performance on the race track. Show us your support, send us your picture...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=QbM0NhBu-Ro&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/QbM0NhBu-Ro/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=QbM0NhBu-Ro'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/QbM0NhBu-Ro'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/QbM0NhBu-Ro/comments' countHint='31'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/QbM0NhBu-Ro?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='86' yt:format='5'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07lued.c.youtube.com/CigLENy73wIaHwka-W4QNjSzQRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='86' yt:format='1'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07lued.c.youtube.com/CigLENy73wIaHwka-W4QNjSzQRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='86' yt:format='6'/>
+            <media:description type='plain'>It has always been the enthusiasm and support of our fans that has driven us
+                to top performance on the race track. Show us your support, send us your picture...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=QbM0NhBu-Ro&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/QbM0NhBu-Ro/0.jpg' height='360' width='480' time='00:00:43'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/QbM0NhBu-Ro/1.jpg' height='90' width='120' time='00:00:21.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/QbM0NhBu-Ro/2.jpg' height='90' width='120' time='00:00:43'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/QbM0NhBu-Ro/3.jpg' height='90' width='120' time='00:01:04.500'/>
+            <media:title type='plain'>Porsche Motorsport - Our fans. Our engine.</media:title>
+            <yt:duration seconds='86'/>
+        </media:group>
+        <gd:rating average='4.9612904' max='5' min='1' numRaters='310' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='13573'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/dfENcNkSEtE</id>
+        <published>2014-04-23T14:10:57.000Z</published>
+        <updated>2014-05-17T17:19:59.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Family reunion: Porsche 917, 918 Spyder, 919 Hybrid</title>
+        <content type='text'>At the UK preview evenings of the new Porsche Macan, three special guests illustrated,
+            without doubt, that every Porsche has a race car at its heart. Lined u...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=dfENcNkSEtE&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/dfENcNkSEtE/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=dfENcNkSEtE'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/dfENcNkSEtE'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/dfENcNkSEtE/comments' countHint='37'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/dfENcNkSEtE?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='119' yt:format='5'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lues.c.youtube.com/CigLENy73wIaHwnREhLZcA3xdRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='119' yt:format='1'/>
+            <media:content
+                    url='rtsp://r5---sn-cg07lues.c.youtube.com/CigLENy73wIaHwnREhLZcA3xdRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='119' yt:format='6'/>
+            <media:description type='plain'>At the UK preview evenings of the new Porsche Macan, three special guests
+                illustrated, without doubt, that every Porsche has a race car at its heart. Lined u...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=dfENcNkSEtE&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/dfENcNkSEtE/0.jpg' height='360' width='480'
+                             time='00:00:59.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/dfENcNkSEtE/1.jpg' height='90' width='120' time='00:00:29.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/dfENcNkSEtE/2.jpg' height='90' width='120' time='00:00:59.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/dfENcNkSEtE/3.jpg' height='90' width='120' time='00:01:29.250'/>
+            <media:title type='plain'>Family reunion: Porsche 917, 918 Spyder, 919 Hybrid</media:title>
+            <yt:duration seconds='119'/>
+        </media:group>
+        <gd:rating average='4.9568343' max='5' min='1' numRaters='278' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='15383'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/HZvMFyWb-4I</id>
+        <published>2014-04-21T16:49:45.000Z</published>
+        <updated>2014-05-18T02:18:53.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Boxster GTS and Cayman GTS celebrate debut in Beijing</title>
+        <content type='text'>Watch the world premiere of the new Porsche Boxster GTS and Cayman GTS in Beijing. More
+            information on http://www.porsche.com/boxstergts or http://www.porsch...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=HZvMFyWb-4I&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/HZvMFyWb-4I/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=HZvMFyWb-4I'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/HZvMFyWb-4I'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/HZvMFyWb-4I/comments' countHint='41'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/HZvMFyWb-4I?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='741' yt:format='5'/>
+            <media:content
+                    url='rtsp://r8---sn-cg07luek.c.youtube.com/CigLENy73wIaHwmC-5slF8ybHRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='741' yt:format='1'/>
+            <media:content
+                    url='rtsp://r8---sn-cg07luek.c.youtube.com/CigLENy73wIaHwmC-5slF8ybHRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='741' yt:format='6'/>
+            <media:description type='plain'>Watch the world premiere of the new Porsche Boxster GTS and Cayman GTS in
+                Beijing. More information on http://www.porsche.com/boxstergts or http://www.porsch...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=HZvMFyWb-4I&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/HZvMFyWb-4I/0.jpg' height='360' width='480'
+                             time='00:06:10.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/HZvMFyWb-4I/1.jpg' height='90' width='120' time='00:03:05.250'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/HZvMFyWb-4I/2.jpg' height='90' width='120' time='00:06:10.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/HZvMFyWb-4I/3.jpg' height='90' width='120' time='00:09:15.750'/>
+            <media:title type='plain'>Porsche Boxster GTS and Cayman GTS celebrate debut in Beijing</media:title>
+            <yt:duration seconds='741'/>
+        </media:group>
+        <gd:rating average='4.6923075' max='5' min='1' numRaters='234' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='30240'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/6JpIEB0MdaE</id>
+        <published>2014-04-20T09:06:30.000Z</published>
+        <updated>2014-05-18T14:32:15.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>The new Porsche Boxster GTS and Cayman GTS: Purist</title>
+        <content type='text'>Our latest interpretation of mid-engine driving fun celebrates its public debut in Beijing.
+            Learn more about the Boxster and Cayman GTS in this video and on ...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=6JpIEB0MdaE&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/6JpIEB0MdaE/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=6JpIEB0MdaE'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/6JpIEB0MdaE'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/6JpIEB0MdaE/comments' countHint='77'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/6JpIEB0MdaE?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='55' yt:format='5'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmhdQwdEEia6BMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='55' yt:format='1'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07luel.c.youtube.com/CigLENy73wIaHwmhdQwdEEia6BMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='55' yt:format='6'/>
+            <media:description type='plain'>Our latest interpretation of mid-engine driving fun celebrates its public
+                debut in Beijing. Learn more about the Boxster and Cayman GTS in this video and on ...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=6JpIEB0MdaE&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/6JpIEB0MdaE/0.jpg' height='360' width='480'
+                             time='00:00:27.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/6JpIEB0MdaE/1.jpg' height='90' width='120' time='00:00:13.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/6JpIEB0MdaE/2.jpg' height='90' width='120' time='00:00:27.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/6JpIEB0MdaE/3.jpg' height='90' width='120' time='00:00:41.250'/>
+            <media:title type='plain'>The new Porsche Boxster GTS and Cayman GTS: Purist</media:title>
+            <yt:duration seconds='55'/>
+        </media:group>
+        <gd:rating average='4.970803' max='5' min='1' numRaters='411' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='25577'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/YmUEeiBEY4Q</id>
+        <published>2014-04-18T07:55:13.000Z</published>
+        <updated>2014-05-15T17:50:04.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Centre Taipei - Travel Event in Kenting, Taiwan</title>
+        <content type='text'>To celebrate the 50th anniversary of the Porsche 911, Porsche Centre Taipei held a 3 day
+            travel event in Kenting with 40 Porsche models. Watch some of the hi...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=YmUEeiBEY4Q&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/YmUEeiBEY4Q/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=YmUEeiBEY4Q'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/YmUEeiBEY4Q'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/YmUEeiBEY4Q/comments' countHint='19'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/YmUEeiBEY4Q?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='230' yt:format='5'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07lued.c.youtube.com/CigLENy73wIaHwmEY0QgegRlYhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='230' yt:format='1'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07lued.c.youtube.com/CigLENy73wIaHwmEY0QgegRlYhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='230' yt:format='6'/>
+            <media:description type='plain'>To celebrate the 50th anniversary of the Porsche 911, Porsche Centre Taipei
+                held a 3 day travel event in Kenting with 40 Porsche models. Watch some of the hi...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=YmUEeiBEY4Q&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/YmUEeiBEY4Q/0.jpg' height='360' width='480' time='00:01:55'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/YmUEeiBEY4Q/1.jpg' height='90' width='120' time='00:00:57.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/YmUEeiBEY4Q/2.jpg' height='90' width='120' time='00:01:55'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/YmUEeiBEY4Q/3.jpg' height='90' width='120' time='00:02:52.500'/>
+            <media:title type='plain'>Porsche Centre Taipei - Travel Event in Kenting, Taiwan</media:title>
+            <yt:duration seconds='230'/>
+        </media:group>
+        <gd:rating average='4.618257' max='5' min='1' numRaters='241' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='12636'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/NVP1Kjua9Zw</id>
+        <published>2014-04-17T14:21:24.000Z</published>
+        <updated>2014-05-14T12:44:36.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Carrera Cup GB - Action from Brands Hatch</title>
+        <content type='text'>Attracting crowds of over 35000 people at Brands Hatch, the 2014 Porsche Carrera Cup Great
+            Britain made for an intense and exciting spectacle. Watch highlig...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=NVP1Kjua9Zw&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/NVP1Kjua9Zw/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=NVP1Kjua9Zw'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/NVP1Kjua9Zw'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/NVP1Kjua9Zw/comments' countHint='3'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/NVP1Kjua9Zw?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='130' yt:format='5'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07lues.c.youtube.com/CigLENy73wIaHwmc9Zo7KvVTNRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='130' yt:format='1'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07lues.c.youtube.com/CigLENy73wIaHwmc9Zo7KvVTNRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='130' yt:format='6'/>
+            <media:description type='plain'>Attracting crowds of over 35000 people at Brands Hatch, the 2014 Porsche
+                Carrera Cup Great Britain made for an intense and exciting spectacle. Watch highlig...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=NVP1Kjua9Zw&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/NVP1Kjua9Zw/0.jpg' height='360' width='480' time='00:01:05'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/NVP1Kjua9Zw/1.jpg' height='90' width='120' time='00:00:32.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/NVP1Kjua9Zw/2.jpg' height='90' width='120' time='00:01:05'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/NVP1Kjua9Zw/3.jpg' height='90' width='120' time='00:01:37.500'/>
+            <media:title type='plain'>Porsche Carrera Cup GB - Action from Brands Hatch</media:title>
+            <yt:duration seconds='130'/>
+        </media:group>
+        <gd:rating average='4.892857' max='5' min='1' numRaters='112' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='8895'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/GW78XQicDC4</id>
+        <published>2014-04-14T14:34:10.000Z</published>
+        <updated>2014-05-18T19:45:58.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche 918 Spyder Hot Lap with Patrick Long</title>
+        <content type='text'>Multi-time Champion Patrick Long, Porsche Works Driver, utilizes all the systems of the new
+            plug-in hybrid Porsche 918 Spyder for a hot lap of the new Circui...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=GW78XQicDC4&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/GW78XQicDC4/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=GW78XQicDC4'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/GW78XQicDC4'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/GW78XQicDC4/comments' countHint='155'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/GW78XQicDC4?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='135' yt:format='5'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07lued.c.youtube.com/CigLENy73wIaHwkuDJwIXfxuGRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='135' yt:format='1'/>
+            <media:content
+                    url='rtsp://r1---sn-cg07lued.c.youtube.com/CigLENy73wIaHwkuDJwIXfxuGRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='135' yt:format='6'/>
+            <media:description type='plain'>Multi-time Champion Patrick Long, Porsche Works Driver, utilizes all the
+                systems of the new plug-in hybrid Porsche 918 Spyder for a hot lap of the new Circui...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=GW78XQicDC4&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/GW78XQicDC4/0.jpg' height='360' width='480'
+                             time='00:01:07.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/GW78XQicDC4/1.jpg' height='90' width='120' time='00:00:33.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/GW78XQicDC4/2.jpg' height='90' width='120' time='00:01:07.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/GW78XQicDC4/3.jpg' height='90' width='120' time='00:01:41.250'/>
+            <media:title type='plain'>Porsche 918 Spyder Hot Lap with Patrick Long</media:title>
+            <yt:duration seconds='135'/>
+        </media:group>
+        <gd:rating average='4.9368215' max='5' min='1' numRaters='2026' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='248239'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/e3u2Ntp4wcU</id>
+        <published>2014-04-09T07:13:53.000Z</published>
+        <updated>2014-05-16T05:09:06.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Webtunes Vol. 5: Macan - "Life Intensified"</title>
+        <content type='text'>Who said that the new Porsche Macan only intensifies your life on the road? Listen to the
+            soundtrack of the new Macan album, featuring 12 songs from various ...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=e3u2Ntp4wcU&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/e3u2Ntp4wcU/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=e3u2Ntp4wcU'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/e3u2Ntp4wcU'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/e3u2Ntp4wcU/comments' countHint='66'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/e3u2Ntp4wcU?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='102' yt:format='5'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07luer.c.youtube.com/CigLENy73wIaHwnFwXjaNrZ7exMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='102' yt:format='1'/>
+            <media:content
+                    url='rtsp://r7---sn-cg07luer.c.youtube.com/CigLENy73wIaHwnFwXjaNrZ7exMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='102' yt:format='6'/>
+            <media:description type='plain'>Who said that the new Porsche Macan only intensifies your life on the road?
+                Listen to the soundtrack of the new Macan album, featuring 12 songs from various ...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=e3u2Ntp4wcU&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/e3u2Ntp4wcU/0.jpg' height='360' width='480' time='00:00:51'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/e3u2Ntp4wcU/1.jpg' height='90' width='120' time='00:00:25.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/e3u2Ntp4wcU/2.jpg' height='90' width='120' time='00:00:51'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/e3u2Ntp4wcU/3.jpg' height='90' width='120' time='00:01:16.500'/>
+            <media:title type='plain'>Porsche Webtunes Vol. 5: Macan - "Life Intensified"</media:title>
+            <yt:duration seconds='102'/>
+        </media:group>
+        <gd:rating average='4.7536945' max='5' min='1' numRaters='406' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='55510'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/5VT_tyHLy9Y</id>
+        <published>2014-04-08T09:22:20.000Z</published>
+        <updated>2014-05-13T07:10:27.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche and Michelin: A Strong Partnership for Top Performance.</title>
+        <content type='text'>Inseparable for over 10 years now and side by side right from the start of our LMP1
+            project. Learn more about the partnership between Porsche and Michelin in...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=5VT_tyHLy9Y&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/5VT_tyHLy9Y/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=5VT_tyHLy9Y'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/5VT_tyHLy9Y'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/5VT_tyHLy9Y/comments' countHint='20'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/5VT_tyHLy9Y?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='71' yt:format='5'/>
+            <media:content
+                    url='rtsp://r6---sn-cg07luee.c.youtube.com/CigLENy73wIaHwnWy8sht_9U5RMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='71' yt:format='1'/>
+            <media:content
+                    url='rtsp://r6---sn-cg07luee.c.youtube.com/CigLENy73wIaHwnWy8sht_9U5RMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='71' yt:format='6'/>
+            <media:description type='plain'>Inseparable for over 10 years now and side by side right from the start of
+                our LMP1 project. Learn more about the partnership between Porsche and Michelin in...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=5VT_tyHLy9Y&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/5VT_tyHLy9Y/0.jpg' height='360' width='480'
+                             time='00:00:35.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/5VT_tyHLy9Y/1.jpg' height='90' width='120' time='00:00:17.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/5VT_tyHLy9Y/2.jpg' height='90' width='120' time='00:00:35.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/5VT_tyHLy9Y/3.jpg' height='90' width='120' time='00:00:53.250'/>
+            <media:title type='plain'>Porsche and Michelin: A Strong Partnership for Top Performance.</media:title>
+            <yt:duration seconds='71'/>
+        </media:group>
+        <gd:rating average='4.928571' max='5' min='1' numRaters='224' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='148622'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/uRF2HBRhfSw</id>
+        <published>2014-04-05T10:18:43.000Z</published>
+        <updated>2014-05-12T18:18:16.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche Camp4 Canada 2014</title>
+        <content type='text'>When the snow falls, people usually head for the trails on two skis. Why not try four
+            wheels instead? At Camp4, you'll learn the basics of driving dynamics i...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=uRF2HBRhfSw&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/uRF2HBRhfSw/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=uRF2HBRhfSw'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/uRF2HBRhfSw'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/uRF2HBRhfSw/comments' countHint='56'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/uRF2HBRhfSw?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='59' yt:format='5'/>
+            <media:content
+                    url='rtsp://r8---sn-cg07luek.c.youtube.com/CigLENy73wIaHwksfWEUHHYRuRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='59' yt:format='1'/>
+            <media:content
+                    url='rtsp://r8---sn-cg07luek.c.youtube.com/CigLENy73wIaHwksfWEUHHYRuRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='59' yt:format='6'/>
+            <media:description type='plain'>When the snow falls, people usually head for the trails on two skis. Why not
+                try four wheels instead? At Camp4, you'll learn the basics of driving dynamics i...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=uRF2HBRhfSw&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/uRF2HBRhfSw/0.jpg' height='360' width='480'
+                             time='00:00:29.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/uRF2HBRhfSw/1.jpg' height='90' width='120' time='00:00:14.750'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/uRF2HBRhfSw/2.jpg' height='90' width='120' time='00:00:29.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/uRF2HBRhfSw/3.jpg' height='90' width='120' time='00:00:44.250'/>
+            <media:title type='plain'>Porsche Camp4 Canada 2014</media:title>
+            <yt:duration seconds='59'/>
+        </media:group>
+        <gd:rating average='4.9053254' max='5' min='1' numRaters='338' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='34969'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/u5mO_xePdok</id>
+        <published>2014-04-03T10:00:23.000Z</published>
+        <updated>2014-05-15T09:38:37.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche 919 Hybrid: Technology</title>
+        <content type='text'>In the LMP1-class of the FIA World Endurance Championship 2014, it is all about bringing
+            optimal energy efficiency together with maximum performance. Take a ...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=u5mO_xePdok&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/u5mO_xePdok/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=u5mO_xePdok'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/u5mO_xePdok'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/u5mO_xePdok/comments' countHint='44'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/u5mO_xePdok?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='46' yt:format='5'/>
+            <media:content
+                    url='rtsp://r4---sn-cg07luee.c.youtube.com/CigLENy73wIaHwmJdo8X_46ZuxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='46' yt:format='1'/>
+            <media:content
+                    url='rtsp://r4---sn-cg07luee.c.youtube.com/CigLENy73wIaHwmJdo8X_46ZuxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='46' yt:format='6'/>
+            <media:description type='plain'>In the LMP1-class of the FIA World Endurance Championship 2014, it is all
+                about bringing optimal energy efficiency together with maximum performance. Take a ...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=u5mO_xePdok&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/u5mO_xePdok/0.jpg' height='360' width='480' time='00:00:23'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/u5mO_xePdok/1.jpg' height='90' width='120' time='00:00:11.500'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/u5mO_xePdok/2.jpg' height='90' width='120' time='00:00:23'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/u5mO_xePdok/3.jpg' height='90' width='120' time='00:00:34.500'/>
+            <media:title type='plain'>Porsche 919 Hybrid: Technology</media:title>
+            <yt:duration seconds='46'/>
+        </media:group>
+        <gd:rating average='4.9813952' max='5' min='1' numRaters='430' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='24243'/>
+    </entry>
+    <entry>
+        <id>http://gdata.youtube.com/feeds/api/videos/vKQnePoNz2g</id>
+        <published>2014-03-30T10:09:17.000Z</published>
+        <updated>2014-05-16T10:46:48.000Z</updated>
+        <category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/>
+        <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Autos'
+                  label='Autos &amp; Vehicles'/>
+        <title type='text'>Porsche past &amp; future: Mark Webber meets Le Mans legend Richard Attwood</title>
+        <content type='text'>Ahead of the opening race of the FIA WEC season and Porsche's return to the LMP1 class,
+            works driver Mark Webber joins 1970 Le Mans winner Richard Attwood at...
+        </content>
+        <link rel='alternate' type='text/html'
+              href='http://www.youtube.com/watch?v=vKQnePoNz2g&amp;feature=youtube_gdata'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/videos/vKQnePoNz2g/related'/>
+        <link rel='http://gdata.youtube.com/schemas/2007#mobile' type='text/html'
+              href='http://m.youtube.com/details?v=vKQnePoNz2g'/>
+        <link rel='self' type='application/atom+xml'
+              href='http://gdata.youtube.com/feeds/api/users/porsche/uploads/vKQnePoNz2g'/>
+        <author>
+            <name>Porsche</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/Porsche</uri>
+        </author>
+        <gd:comments>
+            <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
+                         href='http://gdata.youtube.com/feeds/api/videos/vKQnePoNz2g/comments' countHint='19'/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label='Autos &amp; Vehicles' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+                Autos
+            </media:category>
+            <media:content url='http://www.youtube.com/v/vKQnePoNz2g?version=3&amp;f=user_uploads&amp;app=youtube_gdata'
+                           type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full'
+                           duration='216' yt:format='5'/>
+            <media:content
+                    url='rtsp://r3---sn-cg07luek.c.youtube.com/CigLENy73wIaHwlozw36eCekvBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='216' yt:format='1'/>
+            <media:content
+                    url='rtsp://r3---sn-cg07luek.c.youtube.com/CigLENy73wIaHwlozw36eCekvBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp'
+                    type='video/3gpp' medium='video' expression='full' duration='216' yt:format='6'/>
+            <media:description type='plain'>Ahead of the opening race of the FIA WEC season and Porsche's return to the
+                LMP1 class, works driver Mark Webber joins 1970 Le Mans winner Richard Attwood at...
+            </media:description>
+            <media:keywords/>
+            <media:player url='http://www.youtube.com/watch?v=vKQnePoNz2g&amp;feature=youtube_gdata_player'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/vKQnePoNz2g/0.jpg' height='360' width='480' time='00:01:48'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/vKQnePoNz2g/1.jpg' height='90' width='120' time='00:00:54'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/vKQnePoNz2g/2.jpg' height='90' width='120' time='00:01:48'/>
+            <media:thumbnail url='http://i.ytimg.com/vi/vKQnePoNz2g/3.jpg' height='90' width='120' time='00:02:42'/>
+            <media:title type='plain'>Porsche past &amp; future: Mark Webber meets Le Mans legend Richard Attwood
+            </media:title>
+            <yt:duration seconds='216'/>
+        </media:group>
+        <gd:rating average='4.9264708' max='5' min='1' numRaters='272' rel='http://schemas.google.com/g/2005#overall'/>
+        <yt:statistics favoriteCount='0' viewCount='20458'/>
+    </entry>
+</feed>
