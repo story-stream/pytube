@@ -11,7 +11,7 @@ class PyTubeClient(object):
     def __init__(self):
         self.__parser = YoutubeParser()
 
-    def get_videos(self, username, order_by='uploaded'):
+    def get_videos(self, username, order_by='published'):
         res = self.__make_url_request(self.__urls['user_videos'].format(username, order_by))
 
         if res[0] != '<':
