@@ -24,6 +24,10 @@ class ParserTestCase(unittest.TestCase):
         self.assertEqual(parsed_entry['author_name'], 'Ola Englund')
         self.assertEqual(parsed_entry['user_name'], 'fearedse')
         self.assertEqual(parsed_entry['comments']['count'], '357')
+        self.assertEquals(parsed_entry['rating']['average'], '4.9704895')
+        self.assertEquals(parsed_entry['rating']['total'], '1491')
+        self.assertEquals(parsed_entry['statistics']['favourites'], '0')
+        self.assertEquals(parsed_entry['statistics']['views'], '87300')
 
         self.assertEqual(len(parsed_entry['thumbnails']), 7)
         self.assertNotEqual(parsed_entry['description'], '')

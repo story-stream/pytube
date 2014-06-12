@@ -1,3 +1,4 @@
+from collections import OrderedDict
 from lxml import etree
 from dateutil.parser import parse as date_parser
 
@@ -20,11 +21,20 @@ class YoutubeParser(object):
         {'name': 'title', 'xpath': 'a:title/text()'},
         {'name': 'description', 'xpath': 'media:group/media:description/text()'},
         {'name': 'author_name', 'xpath': 'a:author/a:name/text()'},
+        {'name': 'author_url', 'xpath': 'a:author/a:uri/text()'},
         {'name': 'user_name', 'xpath': 'a:author/a:uri/text()', 'convert': lambda x: x[x.rfind('/')+1:]},
         {'name': 'video_url', 'xpath': 'media:group/media:content[@isDefault]/@url'},
         {'name': 'comments', 'children': [
             {'name': 'count', 'xpath': 'gd:comments/gd:feedLink/@countHint'},
             {'name': 'href', 'xpath': 'gd:comments/gd:feedLink/@href'}
+        ]},
+        {'name': 'rating', 'children': [
+            {'name': 'average', 'xpath': 'gd:rating/@average'},
+            {'name': 'total', 'xpath': 'gd:rating/@numRaters'}
+        ]},
+        {'name': 'statistics', 'children': [
+            {'name': 'favourites', 'xpath': 'yt:statistics/@favoriteCount'},
+            {'name': 'views', 'xpath': 'yt:statistics/@viewCount'}
         ]},
         {'name': 'thumbnails', 'multi': True, 'xpath': 'media:group/media:thumbnail', 'convert': lambda x: [e.attrib for e in x]}
     ]
@@ -43,7 +53,7 @@ class YoutubeParser(object):
         return self.__parse_mapping(entry, self.__entity_xpath)
 
     def __parse_mapping(self, entry, collection):
-        obj = {}
+        obj = OrderedDict()
 
         for prop_map in collection:
             if 'children' in prop_map:
