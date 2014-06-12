@@ -1,18 +1,20 @@
-import requests
+import http
 
 from .parser import YoutubeParser
+from pytube import PyTubeNotFound
 
 
 class PyTubeClient(object):
     __urls = {
-        'user_videos': 'http://gdata.youtube.com/feeds/api/users/{0}/uploads?orderby={1}'
+        'user_videos': 'http://gdata.youtube.com/feeds/api/users/{0}/uploads?v=2',
+        'video': 'https://gdata.youtube.com/feeds/api/videos/{0}?v=2'
     }
 
     def __init__(self):
         self.__parser = YoutubeParser()
 
-    def get_videos(self, username, order_by='published'):
-        res = self.__make_url_request(self.__urls['user_videos'].format(username, order_by))
+    def get_videos_for(self, username):
+        res = http.get(self.__urls['user_videos'].format(username))
 
         if res[0] != '<':
             raise PyTubeNotFound(res)
@@ -23,17 +25,15 @@ class PyTubeClient(object):
 
         return entries
 
-    def __make_url_request(self, url):
-        try:
-            res = requests.get(url)
-            if res.status_code is not 404:
-                return res.content
-            else:
-                raise PyTubeNotFound('Unable to find feed')
+    def get_video(self, video_id, html_description=True):
+        res = http.get(self.__urls['video'].format(video_id))
 
-        except requests.ConnectionError:
-            raise PyTubeNotFound('Unable to connect to url. Is your internet connection up?')
+        if res[0] != '<':
+            raise PyTubeNotFound(res)
 
+        entry = self.__parser.get_video(res)
+        if not entry:
+            raise PyTubeNotFound('Video not found')
 
-class PyTubeNotFound(BaseException):
-    pass
+        return entry
+
