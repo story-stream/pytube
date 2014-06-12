@@ -30,7 +30,9 @@ class YoutubeParser(object):
         ]},
         {'name': 'rating', 'children': [
             {'name': 'average', 'xpath': 'gd:rating/@average'},
-            {'name': 'total', 'xpath': 'gd:rating/@numRaters'}
+            {'name': 'total', 'xpath': 'gd:rating/@numRaters'},
+            {'name': 'likes', 'xpath': 'yt:rating/@numLikes'},
+            {'name': 'dislikes', 'xpath': 'yt:rating/@numDislikes'},
         ]},
         {'name': 'statistics', 'children': [
             {'name': 'favourites', 'xpath': 'yt:statistics/@favoriteCount'},
