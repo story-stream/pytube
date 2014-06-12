@@ -14,7 +14,7 @@ class YoutubeParser(object):
                    'yt': 'http://gdata.youtube.com/schemas/2007'}
 
     __entity_xpath = [
-        {'name': 'id', 'xpath': 'a:id/text()'},
+        {'name': 'id', 'xpath': 'media:group/yt:videoid/text()'},
         {'name': 'published', 'xpath': 'a:published/text()', 'convert': date_parser},
         {'name': 'updated', 'xpath': 'a:updated/text()', 'convert': date_parser},
         {'name': 'title', 'xpath': 'a:title/text()'},
@@ -37,7 +37,7 @@ class YoutubeParser(object):
     def get_video(self, xml):
         root = etree.fromstring(xml)
 
-        return self._parse_entry(root)
+        return self._parse_entry(root.xpath('//a:entry', namespaces=self._namespaces)[0])
 
     def _parse_entry(self, entry):
         return self.__parse_mapping(entry, self.__entity_xpath)
@@ -54,7 +54,11 @@ class YoutubeParser(object):
                 if prop_map.get('multi', False):
                     value = result
                 else:
-                    value = result[0]
+                    try:
+                        value = result[0]
+                    except:
+                        print prop_map['xpath']
+                        raise
 
                 if prop_map.get('convert'):
                     obj[prop_map['name']] = prop_map.get('convert')(value)
