@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <entry xmlns='http://www.w3.org/2005/Atom' xmlns:media='http://search.yahoo.com/mrss/'
        xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007'
-       xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss'
        gd:etag='W/&quot;DUYMQn47eCp7I2A9XRZRFUs.&quot;'>
     <id>tag:youtube.com,2008:video:maA1wGBX7ag</id>
     <published>2012-04-05T16:41:13.000Z</published>
@@ -37,11 +36,6 @@
         <gd:feedLink rel='http://gdata.youtube.com/schemas/2007#comments'
                      href='https://gdata.youtube.com/feeds/api/videos/maA1wGBX7ag/comments?v=2' countHint='357'/>
     </gd:comments>
-    <georss:where>
-      <gml:Point>
-        <gml:pos>21.37124437061831 -157.87353515625</gml:pos>
-      </gml:Point>
-    </georss:where>
     <yt:hd/>
     <media:group>
         <media:category label='Music' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music

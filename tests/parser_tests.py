@@ -15,7 +15,7 @@ class ParserTestCase(unittest.TestCase):
 
         self.assertEqual(len(entries), 25)
 
-    def test_parse_entry(self):
+    def test_parse_entry_geo(self):
         parsed_entry = self.parser.get_video(open(os.path.join(os.path.dirname(__file__), 'entry.xml'), 'r').read())
 
         self.assertEqual(parsed_entry['id'], 'maA1wGBX7ag')
@@ -28,8 +28,15 @@ class ParserTestCase(unittest.TestCase):
         self.assertEquals(parsed_entry['rating']['total'], '1491')
         self.assertEquals(parsed_entry['statistics']['favourites'], '0')
         self.assertEquals(parsed_entry['statistics']['views'], '87300')
+        self.assertEquals(parsed_entry.get('keywords'), None)
 
         self.assertEqual(len(parsed_entry['thumbnails']), 7)
         self.assertNotEqual(parsed_entry['description'], '')
+        self.assertEquals(parsed_entry['geolocation'], '21.37124437061831 -157.87353515625')
 
         self.assertEqual(parsed_entry['thumbnails'][0]['url'], 'https://i1.ytimg.com/vi/maA1wGBX7ag/default.jpg')
+
+    def test_parse_no_geo(self):
+        parsed_entry = self.parser.get_video(open(os.path.join(os.path.dirname(__file__), 'entry-no-geo.xml'), 'r').read())
+
+        self.assertEquals(parsed_entry.get('geolocation'), None)

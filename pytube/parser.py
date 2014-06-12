@@ -24,6 +24,7 @@ class YoutubeParser(object):
         {'name': 'author_url', 'xpath': 'a:author/a:uri/text()'},
         {'name': 'user_name', 'xpath': 'a:author/a:uri/text()', 'convert': lambda x: x[x.rfind('/')+1:]},
         {'name': 'video_url', 'xpath': 'media:group/media:content[@isDefault]/@url'},
+        {'name': 'keywords', 'xpath': 'media:group/media:keywords/text()'},
         {'name': 'comments', 'children': [
             {'name': 'count', 'xpath': 'gd:comments/gd:feedLink/@countHint'},
             {'name': 'href', 'xpath': 'gd:comments/gd:feedLink/@href'}
@@ -38,6 +39,7 @@ class YoutubeParser(object):
             {'name': 'favourites', 'xpath': 'yt:statistics/@favoriteCount'},
             {'name': 'views', 'xpath': 'yt:statistics/@viewCount'}
         ]},
+        {'name': 'geolocation', 'xpath': 'georss:where/gml:Point/gml:pos/text()'},
         {'name': 'thumbnails', 'multi': True, 'xpath': 'media:group/media:thumbnail', 'convert': lambda x: [e.attrib for e in x]}
     ]
 
@@ -61,21 +63,23 @@ class YoutubeParser(object):
             if 'children' in prop_map:
                 obj[prop_map['name']] = self.__parse_mapping(entry, prop_map['children'])
             else:
-                result = entry.xpath(prop_map['xpath'], namespaces=self._namespaces)
+                try:
+                    result = entry.xpath(prop_map['xpath'], namespaces=self._namespaces)
 
-                if prop_map.get('multi', False):
-                    value = result
-                else:
-                    try:
-                        value = result[0]
-                    except:
-                        print prop_map['xpath']
-                        raise
+                    if prop_map.get('multi', False):
+                        value = result
+                    else:
+                        try:
+                            value = result[0]
+                        except:
+                            continue
 
-                if prop_map.get('convert'):
-                    obj[prop_map['name']] = prop_map.get('convert')(value)
-                else:
-                    obj[prop_map['name']] = value
+                    if prop_map.get('convert'):
+                        obj[prop_map['name']] = prop_map.get('convert')(value)
+                    else:
+                        obj[prop_map['name']] = value
+                except:
+                    obj[prop_map['name']] = None
 
         return obj
 
