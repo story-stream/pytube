@@ -13,7 +13,7 @@ with open('requirements.txt') as f:
 
 setup(
     name = "pytube",
-    version = "0.0.1",
+    version = "0.2",
     author = "Richard Hayes",
     author_email = "rich@justcompile.it",
     install_requires=required,
