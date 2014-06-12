@@ -22,7 +22,7 @@ setup(
     keywords = "youtube api",
     url = "http://packages.python.org/pytube",
     packages=['pytube'],
-    long_description=read('README'),
+    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Utilities",
