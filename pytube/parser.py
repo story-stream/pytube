@@ -4,21 +4,21 @@ from dateutil.parser import parse as date_parser
 
 class YoutubeParser(object):
     _namespaces = {'a': 'http://www.w3.org/2005/Atom',
-                    'app': 'http://www.w3.org/2007/app',
-                    'batch': 'http://schemas.google.com/gdata/batch',
-                    'gd': 'http://schemas.google.com/g/2005',
-                    'georss': 'http://www.georss.org/georss',
-                    'gml': 'http://www.opengis.net/gml',
-                    'media': 'http://search.yahoo.com/mrss/',
-                    'openSearch': 'http://a9.com/-/spec/opensearch/1.1/',
-                    'yt': 'http://gdata.youtube.com/schemas/2007'}
+                   'app': 'http://www.w3.org/2007/app',
+                   'batch': 'http://schemas.google.com/gdata/batch',
+                   'gd': 'http://schemas.google.com/g/2005',
+                   'georss': 'http://www.georss.org/georss',
+                   'gml': 'http://www.opengis.net/gml',
+                   'media': 'http://search.yahoo.com/mrss/',
+                   'openSearch': 'http://a9.com/-/spec/opensearch/1.1/',
+                   'yt': 'http://gdata.youtube.com/schemas/2007'}
 
     __entity_xpath = [
         {'name': 'id', 'xpath': 'a:id/text()'},
         {'name': 'published', 'xpath': 'a:published/text()', 'convert': date_parser},
         {'name': 'updated', 'xpath': 'a:updated/text()', 'convert': date_parser},
         {'name': 'title', 'xpath': 'a:title/text()'},
-        {'name': 'content', 'xpath': 'a:content/text()'},
+        {'name': 'description', 'xpath': 'media:group/media:description/text()'},
         {'name': 'author_name', 'xpath': 'a:author/a:name/text()'},
         {'name': 'user_name', 'xpath': 'a:author/a:uri/text()', 'convert': lambda x: x[x.rfind('/')+1:]},
         {'name': 'video_url', 'xpath': 'media:group/media:content[@isDefault]/@url'},
@@ -33,6 +33,11 @@ class YoutubeParser(object):
         root = etree.fromstring(xml)
 
         return [self._parse_entry(entry) for entry in root.xpath('//a:entry', namespaces=self._namespaces)]
+
+    def get_video(self, xml):
+        root = etree.fromstring(xml)
+
+        return self._parse_entry(root)
 
     def _parse_entry(self, entry):
         return self.__parse_mapping(entry, self.__entity_xpath)

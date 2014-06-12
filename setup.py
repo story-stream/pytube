@@ -8,11 +8,15 @@ from setuptools import setup
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
 setup(
     name = "pytube",
     version = "0.0.1",
     author = "Richard Hayes",
     author_email = "rich@justcompile.it",
+    install_requires=required,
     description = ("Youtube API V2 feed parser"),
     license = "BSD",
     keywords = "youtube api",

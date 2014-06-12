@@ -29,5 +29,6 @@ class ParserTestCase(unittest.TestCase):
         self.assertEqual(parsed_entry['comments']['count'], '7')
 
         self.assertEqual(len(parsed_entry['thumbnails']), 4)
+        self.assertNotEqual(parsed_entry['description'], '')
 
         self.assertEqual(parsed_entry['thumbnails'][0]['url'], 'http://i.ytimg.com/vi/RFs1M47ZWA8/0.jpg')
