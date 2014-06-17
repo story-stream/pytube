@@ -18,6 +18,9 @@ class ClientTestCase(unittest.TestCase):
     def test_can_retrieve_video(self):
         client = PyTubeClient()
 
-        video = client.get_video('RFs1M47ZWA8')
+        video = client.get_video('TqoUfpe0Ef8')
 
-        self.assertEqual(video['title'][:32], '10 year old guitarist Alex Ayres')
+        print video
+
+        self.assertEqual(video['title'][:32], 'Brighton Pride Welcomes you.')
+        self.assertEqual(video['description'], None)

@@ -72,6 +72,7 @@ class YoutubeParser(object):
                         try:
                             value = result[0]
                         except:
+                            obj[prop_map['name']] = None
                             continue
 
                     if prop_map.get('convert'):
