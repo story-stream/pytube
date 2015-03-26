@@ -1,0 +1,42 @@
+{
+ "kind": "youtube#channelListResponse",
+ "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/P1xNEqDO0EmMMDU5dkU5Q9nxWpc\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+
+   "kind": "youtube#channel",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/o_G1N6aEOZSMPTlqLmi2Pi9zpaw\"",
+   "id": "UC_BaxRhNREI_V0DVXjXDALA",
+   "snippet": {
+    "title": "Porsche",
+    "description": "The official Porsche Channel features exciting content as well as technology and development films by Porsche. Experience the history of Porsche motor sports and behind-the-scenes footage in moving pictures.\n\nImprint: http://www.porsche.com/usa/legal-notice/\nContact information: \nPorsche Cars North America One Porsche Drive, Atlanta, Georgia 30354 United States of America; socialmedia@porsche.com\n\nTo find more information about the combined fuel consumption and CO2 emissions of our models (in accordance with EU 5), please follow this link: http://www.porsche.com/germany/verbrauchsinformationen/",
+    "publishedAt": "2005-10-18T06:12:36.000Z",
+    "thumbnails": {
+     "default": {
+      "url": "https://yt3.ggpht.com/-cC6WK7FOx_g/AAAAAAAAAAI/AAAAAAAAAAA/QQ41pWU9UUQ/s88-c-k-no/photo.jpg"
+     },
+     "medium": {
+      "url": "https://yt3.ggpht.com/-cC6WK7FOx_g/AAAAAAAAAAI/AAAAAAAAAAA/QQ41pWU9UUQ/s240-c-k-no/photo.jpg"
+     },
+     "high": {
+      "url": "https://yt3.ggpht.com/-cC6WK7FOx_g/AAAAAAAAAAI/AAAAAAAAAAA/QQ41pWU9UUQ/s240-c-k-no/photo.jpg"
+     }
+    },
+    "localized": {
+     "title": "Porsche",
+     "description": "The official Porsche Channel features exciting content as well as technology and development films by Porsche. Experience the history of Porsche motor sports and behind-the-scenes footage in moving pictures.\n\nImprint: http://www.porsche.com/usa/legal-notice/\nContact information: \nPorsche Cars North America One Porsche Drive, Atlanta, Georgia 30354 United States of America; socialmedia@porsche.com\n\nTo find more information about the combined fuel consumption and CO2 emissions of our models (in accordance with EU 5), please follow this link: http://www.porsche.com/germany/verbrauchsinformationen/"
+    }
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UU_BaxRhNREI_V0DVXjXDALA"
+    },
+    "googlePlusUserId": "114030215137472936121"
+   }
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "kind": "youtube#videoListResponse",
+ "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/JlLbpSKsqoGUqe7TV1IoQms2Zxs\"",
+ "pageInfo": {
+  "totalResults": 10,
+  "resultsPerPage": 10
+ },
+ "items": [
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/mDdeYuKp4fX16c-CyGAW2p2SVTU\"",
+   "id": "EyykDmuCxZo",
+   "statistics": {
+    "viewCount": "59940",
+    "likeCount": "329",
+    "dislikeCount": "4",
+    "favoriteCount": "0",
+    "commentCount": "46"
+   },
+    "recordingDetails": {
+    "locationDescription": "Geneva",
+    "location": {
+      "latitude": -157.87353515625,
+      "longitude": 21.37124437061831 ,
+      "altitude": 0.0
+    },
+    "recordingDate": "2015-03-16T09:36:37.000Z"
+  }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/CgbPLC3YustFNvpRTe3ysq7iE9g\"",
+   "id": "6oQRq94Cntw",
+   "statistics": {
+    "viewCount": "24059",
+    "likeCount": "505",
+    "dislikeCount": "6",
+    "favoriteCount": "0",
+    "commentCount": "81"
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/gEPlZeYPjprFD1LBpRT6MUjwEx0\"",
+   "id": "7jHh68TMxV4",
+   "statistics": {
+    "viewCount": "6594",
+    "likeCount": "159",
+    "dislikeCount": "6",
+    "favoriteCount": "0",
+    "commentCount": "5"
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/usdZXEwGLuXxhAsU_dlXLEmALGo\"",
+   "id": "i77DETH2N0I",
+   "statistics": {
+    "viewCount": "69862",
+    "likeCount": "768",
+    "dislikeCount": "6",
+    "favoriteCount": "0",
+    "commentCount": "102"
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/5fs4AGcrkbXxppOjzM4eelUknCo\"",
+   "id": "Qyskw6V_LCs",
+   "statistics": {
+    "viewCount": "11671",
+    "likeCount": "221",
+    "dislikeCount": "7",
+    "favoriteCount": "0",
+    "commentCount": "5"
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/PO1BXetSQxHgYDhzuRZJJ-249eo\"",
+   "id": "sQjPECvmBRM",
+   "statistics": {
+    "viewCount": "572805",
+    "likeCount": "507",
+    "dislikeCount": "15",
+    "favoriteCount": "0",
+    "commentCount": "77"
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/hPvXzur2gwJzuHpk6-hZxUqCE-4\"",
+   "id": "n1qtyIy22qs",
+   "statistics": {
+    "viewCount": "965649",
+    "likeCount": "1190",
+    "dislikeCount": "19",
+    "favoriteCount": "0",
+    "commentCount": "223"
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/pR-627hkpvlZ3-3zVAqATHyhuao\"",
+   "id": "yGNxhL0qx60",
+   "statistics": {
+    "viewCount": "9423",
+    "likeCount": "117",
+    "dislikeCount": "8",
+    "favoriteCount": "0",
+    "commentCount": "40"
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/8YjBtyj4184HRIQgQ5d5X2UzwhE\"",
+   "id": "Gqn2Ph_0TRc",
+   "statistics": {
+    "viewCount": "408399",
+    "likeCount": "1456",
+    "dislikeCount": "80",
+    "favoriteCount": "0",
+    "commentCount": "197"
+   },
+   "recordingDetails": {
+    "location": {
+     "latitude": 40.17985,
+     "longitude": 18.03316,
+     "altitude": 0
+    }
+   }
+  },
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/wvceVK09fOT2cgI3x0Xy6Zn3QCk\"",
+   "id": "ZYEruJ-Z0y0",
+   "statistics": {
+    "viewCount": "30930",
+    "likeCount": "762",
+    "dislikeCount": "10",
+    "favoriteCount": "0",
+    "commentCount": "120"
+   }
+  }
+ ]
+}
