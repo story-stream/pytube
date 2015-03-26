@@ -1,0 +1,56 @@
+{
+ "kind": "youtube#videoListResponse",
+ "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/8AZofxSb9SXIMna-_M4HcNqjaqA\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 1
+ },
+ "items": [
+  {
+
+   "kind": "youtube#video",
+   "etag": "\"9iWEWaGPvvCMMVNTPHF9GiusHJA/zSD_dNMUqLcAFnPV_atUnkgfH4s\"",
+   "id": "TpTlWa0_Jpk",
+   "snippet": {
+    "publishedAt": "2014-11-28T20:19:14.000Z",
+    "channelId": "UC6_dwqOUJodesgZb7TdgWhA",
+    "title": "Protone Pedals Attack Overdrive",
+    "description": "Protone is running a Black Friday weekend sale for this pedal: http://protonepedals.com/blackfriday/\n\nJeff Holcomb and I put this video together as I have gotten a lot of people asking me to demo the pedal and also showcase what it can do.\n\nThis goes over the various applications of the pedal, and I hope this shows just how versatile and unique this pedal is!\n\nSignal Chain is: Jackson Custom Shop 7 with BKP Juggernaut Pickups and D'addario NYXL Strings.\nProtone Attack Overdrive\nPeavey 6534+\nTwo Notes Torpedo Live (used as an attenuator and to send direct signal to Axefx)\nAxefx II XL (used only as a cab sim with a Custom Zilla 2x12 IR)\nZilla 2x12 Fatboy with Celestion V30/Creamback H Combo.\nConnected with Planet Waves American Stage Cables.\n\nNo post processing or eq applied to guitar tone.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/TpTlWa0_Jpk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/TpTlWa0_Jpk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/TpTlWa0_Jpk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Misha Mansoor",
+    "categoryId": "10",
+    "liveBroadcastContent": "none",
+    "localized": {
+     "title": "Protone Pedals Attack Overdrive",
+     "description": "Protone is running a Black Friday weekend sale for this pedal: http://protonepedals.com/blackfriday/\n\nJeff Holcomb and I put this video together as I have gotten a lot of people asking me to demo the pedal and also showcase what it can do.\n\nThis goes over the various applications of the pedal, and I hope this shows just how versatile and unique this pedal is!\n\nSignal Chain is: Jackson Custom Shop 7 with BKP Juggernaut Pickups and D'addario NYXL Strings.\nProtone Attack Overdrive\nPeavey 6534+\nTwo Notes Torpedo Live (used as an attenuator and to send direct signal to Axefx)\nAxefx II XL (used only as a cab sim with a Custom Zilla 2x12 IR)\nZilla 2x12 Fatboy with Celestion V30/Creamback H Combo.\nConnected with Planet Waves American Stage Cables.\n\nNo post processing or eq applied to guitar tone."
+    }
+   },
+   "statistics": {
+    "viewCount": "29856",
+    "likeCount": "573",
+    "dislikeCount": "8",
+    "favoriteCount": "0",
+    "commentCount": "141"
+   },
+   "recordingDetails": {
+    "recordingDate": "2014-11-16T00:00:00.000Z"
+   }
+  }
+ ]
+}

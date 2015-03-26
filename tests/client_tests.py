@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 from unittest import TestCase
 from apiclient.http import HttpMock
 from pytube import PyTubeNotFound
@@ -33,7 +35,7 @@ class ClientTestCase(TestCase):
     def test_can_retrieve_videos_for_user_when_username_is_valid(self):
         client = self.__build_client('channel_exists.json')
 
-        videos, video_meta = client.get_videos_for('porsche', mocks={
+        videos = client.get_videos_for('porsche', mocks={
             'playlistItems': self.__build_mock('playlistitems.json')
         })
 
@@ -42,7 +44,7 @@ class ClientTestCase(TestCase):
     def test_can_retrieve_videos_with_additional_meta_data_for_user_when_username_is_valid(self):
         client = self.__build_client('channel_exists.json')
 
-        videos, video_meta = client.get_videos_for('porsche', mocks={
+        videos = client.get_videos_for('porsche', mocks={
             'playlistItems': self.__build_mock('playlistitems.json'),
             'videos': self.__build_mock('videos.json')
         })
@@ -51,23 +53,32 @@ class ClientTestCase(TestCase):
         video = videos[0]
 
         self.assertEqual(video['author_name'], 'Porsche')
-        self.assertEqual(video['title'], 'OMG I LOVE CHEESE')
-        self.assertEqual(video['rating']['average'], 'abc')
-        self.assertEqual(video['statistics']['views'], 'abc')
+        self.assertEqual(video['title'], u'Behind the wheel of the Cayman GT4 with Walter Röhrl')
+        self.assertEqual(int(video['rating']['likes']), 329)
+        self.assertEqual(int(video['statistics']['views']), 59940)
 
     def test_can_retrieve_video(self):
-        video = self.client.get_video('RFs1M47ZWA8')
+        client = self.__build_client('single_video.json')
 
-        self.assertEqual(video['title'][:32], '10 year old guitarist Alex Ayres')
+        video = client.get_video('RFs1M47ZWA8')
 
-    def __build_client(self, mock_file):
-        http = self.__build_mock(mock_file)
+        self.assertEqual(video['title'], 'Protone Pedals Attack Overdrive')
+        self.assertEqual(int(video['rating']['likes']), 573)
+        self.assertEqual(int(video['statistics']['views']), 29856)
+
+    def test_raises_exception_when_video_id_not_found(self):
+        client = self.__build_client('single_video.json', status=404)
+
+        self.assertRaises(PyTubeNotFound, client.get_video, 'RFs1M47ZWA8')
+
+    def __build_client(self, mock_file, status=200):
+        http = self.__build_mock(mock_file, status)
         return PyTubeClient(self.api_key, http_mock=http)
 
-    def __build_mock(self, mock_file):
+    def __build_mock(self, mock_file, status=200):
         import os
 
         path = os.path.dirname(__file__)
         fixture_path = os.path.join(path, 'fixtures', mock_file)
 
-        return HttpMock(fixture_path, {'status': '200'})
+        return HttpMock(fixture_path, {'status': status})

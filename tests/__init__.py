@@ -1,2 +1,2 @@
-#from client_tests import ClientTestCase
+from client_tests import ClientTestCase
 from parser_tests import ParserTestCase

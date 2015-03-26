@@ -13,6 +13,20 @@ class ParserTestCase(TestCase):
         self.parser = PyTubeParser()
         self.username = 'porsche'
 
+    def test_can_parse_single_video(self):
+        json_data = self.__load_json_file('single_video.json').get('items', [{'snippet': {}}])[0]
+
+        parsed_video = self.parser.parse_single_video(json_data)
+
+        self.assertEqual(parsed_video['id'], u'TpTlWa0_Jpk')
+        self.assertEqual(parsed_video['published'], datetime.datetime(2014, 11, 28, 20, 19, 14, tzinfo=tzutc()))
+        self.assertEqual(parsed_video['title'], u'Protone Pedals Attack Overdrive')
+        self.assertTrue(len(parsed_video['description']) > 10)
+        self.assertEqual(parsed_video['author_name'], u'Misha Mansoor')
+        self.assertEqual(parsed_video['author_url'], u'http://www.youtube.com/channel/UC6_dwqOUJodesgZb7TdgWhA')
+        self.assertEqual(parsed_video['user_name'], u'UC6_dwqOUJodesgZb7TdgWhA')
+        self.assertEqual(parsed_video['video_url'], u'http://www.youtube.com/watch?v=TpTlWa0_Jpk')
+
     def test_can_parse_playlist_item(self):
         json_data = self.__load_json_file('video_parser.json')
 
@@ -23,9 +37,9 @@ class ParserTestCase(TestCase):
         self.assertEqual(parsed_video['title'], u'Behind the wheel of the Cayman GT4 with Walter Röhrl')
         self.assertTrue(len(parsed_video['description']) > 10)
         self.assertEqual(parsed_video['author_name'], u'Porsche')
-        self.assertEqual(parsed_video['author_url'], u'http://www.youtube.com/v/porsche')
+        self.assertEqual(parsed_video['author_url'], u'http://www.youtube.com/channel/UC_BaxRhNREI_V0DVXjXDALA')
         self.assertEqual(parsed_video['user_name'], u'porsche')
-        self.assertEqual(parsed_video['video_url'], u'http://www.youtube.com/v/EyykDmuCxZo')
+        self.assertEqual(parsed_video['video_url'], u'http://www.youtube.com/watch?v=EyykDmuCxZo')
 
     def test_can_parse_video_meta_without_recording_details(self):
         data = {

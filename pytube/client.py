@@ -1,5 +1,7 @@
 from apiclient.discovery import build
+from googleapiclient.errors import HttpError
 from pytube import PyTubeNotFound
+from pytube.parser import PyTubeParser
 
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
@@ -9,6 +11,7 @@ class PyTubeClient(object):
     def __init__(self, api_key, http_mock=None):
         self.youtube_client = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=api_key)
         self.http_mock = http_mock
+        self.parser = PyTubeParser()
 
     def is_valid_username(self, username):
         """
@@ -24,6 +27,30 @@ class PyTubeClient(object):
             return True
         else:
             raise PyTubeNotFound(u'User {} not found'.format(username))
+
+    def get_video(self, video_id):
+        """
+        Retrieves a single video record
+        :param video_id: youtube id of the video to retrieve
+        """
+        try:
+            video_response = self.youtube_client.videos().list(
+                part='snippet,statistics,recordingDetails',
+                id=video_id
+            ).execute(http=self.http_mock)
+        except HttpError:
+            raise PyTubeNotFound('Video cannot be found')
+
+        videos = video_response.get('items', [])
+        if videos:
+            video_record = videos[0]
+
+            video = self.parser.parse_single_video(video_record)
+            video.update(self.parser.parse_video_meta(video_record))
+
+            return video
+
+        raise PyTubeNotFound('Video cannot be found')
 
     def get_videos_for(self, username, **kwargs):
         """
@@ -49,8 +76,8 @@ class PyTubeClient(object):
 
             if playlist_items:
                 video_meta = self._get_video_meta_for_videos(playlist_items, http_mock=mock_requests.get('videos'))
-                return playlist_items, video_meta
-            return playlist_items, None
+                return self.parser.parse_videos(username, playlist_items, video_meta)
+            return None
 
         else:
             raise PyTubeNotFound(u'User {} not found'.format(username))
@@ -60,10 +87,13 @@ class PyTubeClient(object):
         Retrieves the channel information for a given username. It will return some basic user information
         such as title and description (amongst others), but also returns the playlist ids belonging to that user
         """
-        channels_response = self.youtube_client.channels().list(
-            forUsername=username,
-            part='snippet'
-        ).execute(http=self.http_mock)
+        try:
+            channels_response = self.youtube_client.channels().list(
+                forUsername=username,
+                part='snippet'
+            ).execute(http=self.http_mock)
+        except HttpError:
+            raise PyTubeNotFound(u'Channel for {} cannot be found'.format(username))
 
         return channels_response.get('items', [])
 
@@ -77,12 +107,15 @@ class PyTubeClient(object):
         :param http_mock: HttpMock object used within unittesting to mock the API response
         :return: list of dict items relating to videos belonging to the playlist
         """
-        playlist_response = self.youtube_client.playlistItems().list(
-            part='snippet',
-            playlistId=playlist_id,
-            maxResults=results_per_page,
-            pageToken=page_token
-        ).execute(http=http_mock)
+        try:
+            playlist_response = self.youtube_client.playlistItems().list(
+                part='snippet',
+                playlistId=playlist_id,
+                maxResults=results_per_page,
+                pageToken=page_token
+            ).execute(http=http_mock)
+        except HttpError:
+            raise PyTubeNotFound('Playlist with id {} cannot be found'.format(playlist_id))
 
         playlist_items = playlist_response.get('items', [])
         videos = []
@@ -102,13 +135,18 @@ class PyTubeClient(object):
         :param http_mock: HttpMock object used within unittesting to mock the API response
         :return: list of dict items relating to video meta data belonging to the playlist items
         """
-        video_response = self.youtube_client.videos().list(
-            part='statistics,recordingDetails',
-            id=map(lambda v: v['resourceId']['videoId'], playlist_items),
-            maxResults=len(playlist_items)
-        ).execute(http=http_mock)
+        try:
+            video_response = self.youtube_client.videos().list(
+                part='statistics,recordingDetails',
+                id=map(lambda v: v['resourceId']['videoId'], playlist_items),
+                maxResults=len(playlist_items)
+            ).execute(http=http_mock)
+        except HttpError:
+            raise PyTubeNotFound('Videos cannot be found {}'.format(playlist_items))
 
-        return video_response.get('items', [])
+        data = {}
 
-    def get_video(self, video_id, html_description=True):
-        raise NotImplemented
+        for video in video_response.get('items', []):
+            data[video['id']] = video
+
+        return data

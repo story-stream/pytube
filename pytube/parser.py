@@ -23,10 +23,25 @@ class PyTubeParser(object):
             u'title': data["title"],
             u'description': data["description"],
             u'author_name': data["channelTitle"],
-            u'author_url': u'http://www.youtube.com/v/{}'.format(username),
+            u'author_url': u'http://www.youtube.com/channel/{}'.format(data['channelId']),
             u'user_name': username,
-            u'video_url': u'http://www.youtube.com/v/{}'.format(video_id),
+            u'video_url': u'http://www.youtube.com/watch?v={}'.format(video_id),
             u'thumbnails': data.get('thumbnails', []),
+            u'keywords': []  # doesnt appear to return this any more
+        }
+
+    def parse_single_video(self, data):
+        video_data = data['snippet']
+        return {
+            u'id': data['id'],
+            u'published': date_parser(video_data["publishedAt"]),
+            u'title': video_data["title"],
+            u'description': video_data["description"],
+            u'author_name': video_data["channelTitle"],
+            u'author_url': u'http://www.youtube.com/channel/{}'.format(video_data['channelId']),
+            u'user_name': video_data['channelId'],
+            u'video_url': u'http://www.youtube.com/watch?v={}'.format(data['id']),
+            u'thumbnails': video_data.get('thumbnails', []),
             u'keywords': []  # doesnt appear to return this any more
         }
 
