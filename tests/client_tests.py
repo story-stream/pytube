@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
 from apiclient.http import HttpMock
-from pytube import PyTubeNotFound
+from pytube import PyTubeNotFoundException, PyTubeException
 from pytube.client import PyTubeClient
 
 
@@ -10,27 +10,43 @@ class ClientTestCase(TestCase):
     def setUp(self):
         self.api_key = 'AIzaSyDxIf48UpW3J77OHlssoME4rFXJ-ugSeZ8'
 
+    def test_returns_true_when_username_is_a_channel_id(self):
+        client = PyTubeClient(self.api_key)
+        self.assertTrue(client.is_channel_id('UCsyZmMdOxKubW1mrJBAoE-Q'))
+
+    def test_returns_false_when_username_is_not_a_channel_id(self):
+        client = PyTubeClient(self.api_key)
+        self.assertFalse(client.is_channel_id('porsche'))
+
+    def test_raises_exception_when_checking_for_channel_id_and_value_is_none(self):
+        client = PyTubeClient(self.api_key)
+        self.assertRaises(PyTubeException, client.is_channel_id, None)
+
+    def test_raises_exception_when_checking_for_channel_id_and_value_is_empty_string(self):
+        client = PyTubeClient(self.api_key)
+        self.assertRaises(PyTubeException, client.is_channel_id, '')
+
     def test_raises_exception_where_username_isnt_supplied_when_checking_for_valid_username(self):
         client = PyTubeClient(self.api_key)
-        self.assertRaises(PyTubeNotFound, client.is_valid_username, None)
+        self.assertRaises(PyTubeNotFoundException, client.is_valid_identifier, None)
 
     def test_raises_exception_where_username_doesnt_exist_when_checking_for_valid_username(self):
         client = self.__build_client('channel_doesnt_exist.json')
 
-        self.assertRaises(PyTubeNotFound, client.is_valid_username, 'rwerwer')
+        self.assertRaises(PyTubeNotFoundException, client.is_valid_identifier, 'rwerwer')
 
     def test_doesnt_raise_exception_where_username_exists_when_checking_for_valid_username(self):
         client = self.__build_client('channel_exists.json')
 
-        self.assertTrue(client.is_valid_username('porsche'))
+        self.assertTrue(client.is_valid_identifier('porsche'))
 
     def test_raises_exception_when_username_isnt_supplied_when_trying_to_retrieve_videos_for_username(self):
         client = PyTubeClient(self.api_key)
-        self.assertRaises(PyTubeNotFound, client.get_videos_for, None)
+        self.assertRaises(PyTubeNotFoundException, client.get_videos_for, None)
 
     def test_raises_exception_where_username_doesnt_exist_when_trying_to_retrieve_videos_for_username(self):
         client = self.__build_client('channel_doesnt_exist.json')
-        self.assertRaises(PyTubeNotFound, client.get_videos_for, 'rwerwer')
+        self.assertRaises(PyTubeNotFoundException, client.get_videos_for, 'rwerwer')
 
     def test_can_retrieve_videos_for_user_when_username_is_valid(self):
         client = self.__build_client('channel_exists.json')
@@ -69,7 +85,7 @@ class ClientTestCase(TestCase):
     def test_raises_exception_when_video_id_not_found(self):
         client = self.__build_client('single_video.json', status=404)
 
-        self.assertRaises(PyTubeNotFound, client.get_video, 'RFs1M47ZWA8')
+        self.assertRaises(PyTubeNotFoundException, client.get_video, 'RFs1M47ZWA8')
 
     def __build_client(self, mock_file, status=200):
         http = self.__build_mock(mock_file, status)
