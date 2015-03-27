@@ -90,7 +90,7 @@ class PyTubeClient(object):
         try:
             channels_response = self.youtube_client.channels().list(
                 forUsername=username,
-                part='snippet'
+                part='contentDetails'
             ).execute(http=self.http_mock)
         except HttpError:
             raise PyTubeNotFound(u'Channel for {} cannot be found'.format(username))
