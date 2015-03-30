@@ -1,7 +1,9 @@
 __author__ = 'richardhayes'
 
 
-class PyTubeNotFound(BaseException):
+class PyTubeException(BaseException):
     pass
 
 
+class PyTubeNotFoundException(BaseException):
+    pass
